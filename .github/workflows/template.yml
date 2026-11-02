@@ -98,7 +98,7 @@ jobs:
           .github/template/setup.sh
 
       - name: Validate rendered publiccode.yml
-        uses: italia/publiccode-parser-action@0deab88c3f094aa12c5826e52ac2c4f176446821 # v1.6.0
+        uses: italia/publiccode-parser-action@f370d239aa3ec57b819909b467ff77679b6dc721 # v1.7.0
         with:
           publiccode: _selftest/publiccode.yml
           # The example repository does not exist, so skip URL checks.
